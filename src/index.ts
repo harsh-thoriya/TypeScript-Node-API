@@ -27,5 +27,5 @@ const server = app.listen(PORT, () => {
 app.get('/', (req, res) => res.send('Welcome to NodeJs App using TypeScript'));
 app.get('/products', productCRUD.getProductList);
 app.post('/products',productCRUD.createProduct);
-app.post('/updateproduct',productCRUD.updateroduct);
+app.post('/updateproduct',productCRUD.updateproduct);
 app.post('/deleteproduct',productCRUD.deleteproduct);

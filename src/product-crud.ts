@@ -26,7 +26,7 @@ export const getProductList = async (req:any, res:any) => {
       }
   };
 
-export const updateroduct = async (req:any, res:any) => {
+export const updateproduct = async (req:any, res:any) => {
     const product: Product = req.body;
     await ProductService.updateProducts(product);
     try {
